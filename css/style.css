@@ -129,6 +129,7 @@ body {
   }
 
   .answer-options h1 {
+    font-size: 4rem;
     margin: auto;
     width: 50%;
     margin-bottom: 1rem;
@@ -136,6 +137,29 @@ body {
 
   h1 {
     font-size: 50px;
+  }
+
+  .equation {
+    padding: 5rem;
+  }
+
+  .equation h1 {
+    font-size: 5rem;
+  }
+
+  #option1:hover{
+    background-color: #fe4a49;
+    color: #fff;
+  }
+  
+  #option2:hover{
+    background-color: #2ab7ca;
+    color: #fff;
+  }
+  
+  #option3:hover{
+    background-color: #fed766;
+    color: #fff;
   }
 }
 
@@ -154,11 +178,11 @@ body {
 
   .equation h1 {
     padding: 20px 15px;
-  }
-  
-  .answer-options h1 {
-    width: 100%;
-    margin-bottom: .5rem;
+    font-size: 3.5rem;
   }
 
+  .answer-options h1 {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
 }
